@@ -1,3 +1,5 @@
+//this is a complete CRUD operation for loggin user
+//you can create user, sign in, authentication, restore-password and delete user.
 const express = require('express')
 const app = express()
 require('./startup/connectMongo')()
